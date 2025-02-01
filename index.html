@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Launch Library - Dynamic Rocket List</title>
+</head>
+<body>
+  <h1>Upcoming Rocket Launches</h1>
+
+  <!-- Dropdown for rocket names (populated dynamically) -->
+  <label for="rocket-select">Rocket:</label>
+  <select id="rocket-select">
+    <option value="">-- All Rockets --</option>
+  </select>
+
+  <!-- Button to trigger filtered fetch -->
+  <button id="fetch-launches-btn">Fetch Launches</button>
+
+  <!-- Display area -->
+  <div id="launches-container" style="margin-top: 20px;"></div>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
